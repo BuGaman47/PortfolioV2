@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -6,16 +7,15 @@ export default {
   ],
   theme: {
     extend: {
-      colors:{
-        primaryTitle: '#127369',
-        primaryContent: '#4C5958',
-        primarySubcontent: '#8AA6A3',
-        primaryBase: '#4C5958',
-        primaryAccent: '#10403B',
-        primaryBg: '#f6f6f6',
+      colors: {
+        primary: '#6366f1',
+        primaryTitle: '#ffffff',
+        primaryAccent: '#22c55e',
+        primaryContent: '#cbd5f5',
+        primarySubcontent: '#94a3b8',
+        primaryBg: '#020617',
       }
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
 }
-

@@ -1,15 +1,20 @@
 import About from "../About";
-import Experience from "../Experience";
+import Project from "../Project";
 
 const RightSection = () => {
-    return (
-    <div className="text-left grid gap-y-36 px-5">
+  return (
+    <div className="flex flex-col gap-8">
+
+      <div className="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10 shadow-xl transition duration-300 hover:shadow-2xl hover:border-white/20 hover:-translate-y-0.5">
         <About />
-        <Experience />
-        <div>Experience</div>
-        <div>Experience</div>
+      </div>
+
+      <div className="bg-white/5 backdrop-blur-sm p-6 rounded-2xl border border-white/10 shadow-xl transition duration-300 hover:shadow-2xl hover:border-white/20 hover:-translate-y-0.5">
+        <Project />
+      </div>
+
     </div>
-    )
-}
+  );
+};
 
 export default RightSection;
