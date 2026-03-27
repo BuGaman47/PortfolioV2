@@ -57,7 +57,7 @@ const Navbar = () => {
                         className={`group flex items-center gap-3 text-left px-3 py-2.5 rounded-xl transition-all duration-300 cursor-pointer w-full
                             ${isActive
                                 ? 'text-primary font-semibold bg-primary/10 border-l-4 border-primary'
-                                : 'text-gray-400 hover:text-white hover:bg-white/5 border-l-4 border-transparent'
+                                : 'text-gray-500 hover:text-gray-900 bg-transparent'
                             }`}
                     >
                         <FontAwesomeIcon

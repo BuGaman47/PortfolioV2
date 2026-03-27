@@ -28,10 +28,8 @@ export const data = [
           "เป็นเว็บแอปพลิเคชันสำหรับการจัดการและควบคุมอุปกรณ์ IoT โดยใช้ React และ Tailwind CSS ในการพัฒนา Frontend และเชื่อมต่อกับระบบหลังบ้านเพื่อดึงข้อมูลและแสดงผลให้ผู้ใช้งานได้อย่างมีประสิทธิภาพ"
         ],
         skills: [
-          ["React.js", "Vite","Git"],
-          ["Tailwind CSS", "daisyUI"],
-          ["Component-based Architecture"],
-          ["Responsive Web Design"],
+          ["HTML", "CSS", "JavaScript", "Tailwind CSS"],
+           ["Firebase", "Java", "Git"],
         ],
         picture: picP3,
 },

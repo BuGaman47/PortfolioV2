@@ -11,7 +11,7 @@ const Header = () => {
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
-        className="text-left text-4xl font-extrabold text-white"
+        className="text-left text-4xl font-extrabold text-white/10` tracking-wide"
       >
         {data.name}
       </motion.div>
@@ -22,13 +22,13 @@ const Header = () => {
       </div>
 
       {/* Caption */}
-      <p className="text-left text-sm text-gray-400 leading-relaxed max-w-xs">
+      <p className="text-left text-sm text-gray-700 leading-relaxed max-w-xs">
         {data.caption}
       </p>
 
       {/* Certificates */}
       <div className="mt-4">
-        <div className="text-xs text-gray-400 mb-2">
+        <div className="text-sm text-gray-500 mb-2">
           Certificates
         </div>
 
@@ -43,8 +43,7 @@ const Header = () => {
       flex flex-col items-start justify-between
       px-4 py-4 rounded-2xl
 
-      bg-gradient-to-br from-white/5 to-white/0
-      border border-white/10
+      bbg-white border border-gray-200 shadow-sm
 
       backdrop-blur-md
       transition-all duration-300

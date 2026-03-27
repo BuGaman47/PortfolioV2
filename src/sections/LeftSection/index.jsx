@@ -19,14 +19,12 @@ const LeftSection = () => {
 </div>
        
         {/* Navbar */}
-        <div className="bg-white/5 backdrop-blur-sm p-3 rounded-2xl border border-white/10 shadow-lg ">
+        <div className="text-gray-500 hover:text-gray-900
+bg-transparent ">
           <Navbar />
         </div>
 
-        {/* Contact */}
-        <div className="bg-white/5 backdrop-blur-sm p-4 rounded-2xl border border-white/10 shadow-lg">
-          <Contact />
-        </div>
+        
 
       </motion.div>
 

@@ -4,7 +4,7 @@ import RightSection from './sections/RightSection'
 
 function App() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-neutral to-black text-white">
+    <div className="min-h-screen bg-white text-gray-800">
       <div className="max-w-6xl mx-auto px-4 py-16 flex gap-10 overflow-visible">
 
         {/* Left - fixed */}

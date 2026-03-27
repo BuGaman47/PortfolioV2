@@ -9,18 +9,18 @@ const About = () => {
             </div>
 
             {/* Description */}
-            <p className='text-gray-300 leading-relaxed text-sm'>
+            <p className='text-gray-700 leading-relaxed text-sm shadow-lg p-4 rounded-xl bg-white/5 border border-white/10'>
                 {data.description}
             </p>
 
             {/* Education */}
             {data.education && (
                 <div className='space-y-2'>
-                    <div className='text-xs uppercase tracking-widest text-gray-500 font-semibold'>Education</div>
-                    <div className='bg-white/5 rounded-xl p-4 border border-white/10'>
-                        <div className='text-white font-semibold text-sm'>{data.education.degree}</div>
-                        <div className='text-gray-400 text-xs mt-1'>{data.education.institution}</div>
-                        <div className='text-gray-500 text-xs mt-0.5'>{data.education.year}</div>
+                    <div className='text-xs uppercase tracking-widest text-gray-900 font-semibold '>Education</div>
+                    <div className='bg-white/5 rounded-xl p-4 border border-white/10 shadow-lg'>
+                        <div className='text-gray-900   font-semibold text-sm'>{data.education.degree}</div>
+                        <div className='text-gray-600    text-xs mt-1'>{data.education.institution}</div>
+                        <div className='text-gray-400   text-xs mt-0.5'>{data.education.year}</div>
                     </div>
                 </div>
             )}
