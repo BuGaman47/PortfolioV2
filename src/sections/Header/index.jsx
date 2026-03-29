@@ -1,25 +1,18 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFilePdf } from '@fortawesome/free-solid-svg-icons'
 import { data } from '../../contents/header'
-import { motion } from 'framer-motion'
 
 const Header = () => {
   return (
     <div className="flex flex-col gap-4">
 
       {/* Name */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="text-left text-4xl font-extrabold text-white/10` tracking-wide"
-      >
-        {data.name}
-      </motion.div>
+      <div className="skeleton  skeleton-text text-left text-4xl font-extrabold text-white/10` tracking-wide"> {data.name}</div>
+      
+
 
       {/* Title */}
-      <div className="text-left text-lg text-primary font-semibold tracking-wide">
-        {data.title}
-      </div>
+      <div className="skeleton  skeleton-text text-left text-lg text-primary font-semibold tracking-wide">{data.title}</div>
 
       {/* Caption */}
       <p className="text-left text-sm text-gray-700 leading-relaxed max-w-xs">
